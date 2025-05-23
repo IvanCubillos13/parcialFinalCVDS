@@ -1,4 +1,4 @@
-package model;
+package CVDS.parcialFinal.model;
 
 public class User {
     private String name;

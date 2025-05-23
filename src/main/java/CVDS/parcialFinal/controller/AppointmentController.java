@@ -1,4 +1,4 @@
-package controller;
+package CVDS.parcialFinal.controller;
 
 public class AppointmentController {
 

@@ -1,9 +1,7 @@
-package service;
+package CVDS.parcialFinal.service;
 
+import CVDS.parcialFinal.repository.AppointmentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-
-@Service
 public interface AppointmentServiceInterface {
-    @Autowired
+
 }

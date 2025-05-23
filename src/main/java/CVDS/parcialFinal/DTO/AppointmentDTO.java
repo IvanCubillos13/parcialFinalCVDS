@@ -1,6 +1,4 @@
-package DTO;
-
-import model.Specialty;
+package CVDS.parcialFinal.DTO;
 
 import java.time.LocalDate;
 
