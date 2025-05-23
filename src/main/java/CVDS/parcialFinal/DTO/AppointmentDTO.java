@@ -3,6 +3,7 @@ package CVDS.parcialFinal.DTO;
 import java.time.LocalDate;
 
 public class AppointmentDTO {
+    private int appointmentId;
     private String name;
     private String numberId;
     private String eMail;
@@ -32,5 +33,7 @@ public class AppointmentDTO {
     public String getUbication() {
         return ubication;
     }
+
+    public int getAppointmentId() {return appointmentId;}
 
 }

@@ -1,7 +1,8 @@
 package CVDS.parcialFinal.service;
 
-import CVDS.parcialFinal.repository.AppointmentRepository;
-import org.springframework.beans.factory.annotation.Autowired;
-public interface AppointmentServiceInterface {
+import CVDS.parcialFinal.DTO.AppointmentDTO;
+import CVDS.parcialFinal.model.Appointment;
 
+public interface AppointmentServiceInterface {
+    Appointment addAppointment(AppointmentDTO appointmentDTO);
 }
